@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap");
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.full {
+  height: 100vh;
+}
+
+.half {
+  min-height: 70vh;
+}
+
+.card {
+  height: 300px;
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 0px;
+}
+
+.card-title {
+  font-size: 40px;
+}
+
+.card-footer {
+  background-color: #f6f6f6;
+  border: none;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #e58926;
+}
+
+.landing {
+  background-image: url("../images/landing4.png");
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.landing .row {
+  height: 100vh;
+}
+
+.landing .left {
+  padding-left: 50px;
+}
+
+.landing h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.landing p {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.landing img {
+  width: 40vw;
+}
+
+.featured .main h2 {
+  font-size: 45px;
+}
+
+.featured .heading {
+  padding-bottom: 100px;
+}
+
+.featured .card-text {
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+}
+
+.featured .price {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.about {
+  background-color: black;
+}
+
+.about span {
+  color: #e52626;
+}
+
+.about h2 {
+  font-size: 70px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.about .left {
+  color: white;
+}
+
+.about .left h3 {
+  padding-bottom: 80px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.about .right img {
+  width: 700px;
+  padding-left: 100px;
+}
+
+.how-we-work {
+  background-image: url("/images/how-we-work.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.how-we-work .main span {
+  color: #e52626;
+}
+
+.how-we-work .main h2 {
+  color: white;
+  font-size: 70px;
+}
+
+.how-we-work .heading {
+  padding-bottom: 100px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer h4 span {
+  color: #e52626;
+}
+/*# sourceMappingURL=landing.css.map */
