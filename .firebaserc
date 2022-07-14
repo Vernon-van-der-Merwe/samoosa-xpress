@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "samoosa-xpress"
+  },
+  "targets": {
+    "samoosa-xpress": {
+      "hosting": {
+        "admin": [
+          "samoosa-admin"
+        ],
+        "website": [
+          "samoosa-xpress"
+        ]
+      }
+    }
   }
 }

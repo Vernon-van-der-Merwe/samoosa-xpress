@@ -116,6 +116,38 @@ body {
   padding-left: 100px;
 }
 
+.where {
+  background-color: black;
+}
+
+.where span {
+  color: #e52626;
+}
+
+.where h2 {
+  font-size: 70px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.where .left {
+  color: white;
+}
+
+.where .left h3 {
+  padding-bottom: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.where .right img {
+  width: 700px;
+  padding-left: 100px;
+}
+
+.branchCaroucel {
+  height: 70vh;
+}
+
 .how-we-work {
   background-image: url("/images/how-we-work.png");
   background-position: center center;
